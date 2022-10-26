@@ -1,4 +1,5 @@
 if(room == rm_game){
+	audio_play_sound(BeepBox_Song__1_, 2, true)
 	repeat(6){
 		var xx = choose(
 			irandom_range(0, room_width*0.3),
