@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_ship",
+  "name": "obj_thrust",
   "spriteId": {
-    "name": "spr_ship",
-    "path": "sprites/spr_ship/spr_ship.yy",
+    "name": "spr_thrust",
+    "path": "sprites/spr_thrust/spr_thrust.yy",
   },
   "solid": false,
   "visible": true,
@@ -26,7 +26,7 @@
   "physicsShapePoints": [],
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Obj_astoriod","path":"objects/Obj_astoriod/Obj_astoriod.yy",},},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],

@@ -3,11 +3,13 @@ if(keyboard_check(vk_left)){
 }
 
 if(keyboard_check(vk_right)){
-	image_angle = image_angle - 5;		
+	image_angle = image_angle - 5;
 }
 
 if(keyboard_check(vk_up)){
-	motion_add(image_angle, 0.05);		
+	motion_add(image_angle, 0.05);
+	var inst = instance_create_layer(x, y, "Instances", obj_thrust);
+	inst.direction = image_angle;
 }
 
 if ( keyboard_check_pressed(vk_space) ) {
