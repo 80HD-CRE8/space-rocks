@@ -1,5 +1,6 @@
+if(sprite_index != spr_ship_power){
 lives -= 1;
-
+}
 instance_destroy();
 
 with(other){

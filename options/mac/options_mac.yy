@@ -19,7 +19,7 @@
   "option_mac_interpolate_pixels": true,
   "option_mac_vsync": false,
   "option_mac_resize_window": false,
-  "option_mac_enable_retina": true,
+  "option_mac_enable_retina": false,
   "option_mac_scale": 0,
   "option_mac_texture_page": "2048x2048",
   "option_mac_build_app_store": false,
@@ -31,4 +31,5 @@
   "option_mac_x86_64": true,
   "option_mac_arm64": true,
   "option_mac_apple_sign_in": false,
+  "option_mac_min_version": "10.10",
 }

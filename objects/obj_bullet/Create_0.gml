@@ -1,1 +1,1 @@
-speed = 6;
+speed = global.ship_speed + 6;

@@ -1,5 +1,7 @@
 if(room == rm_game){
-	audio_play_sound(BeepBox_Song__2_, 2, true)
+	spawn_off_camra();
+	
+	audio_play_sound(Beep_Box_Song_cool, 2, true)
 	repeat(6){
 		var xx = choose(
 			irandom_range(0, room_width*0.3),
@@ -13,4 +15,5 @@ if(room == rm_game){
 	}
 	
 	alarm[0] = 60;
+	alarm[1] = 60*5;
 }
